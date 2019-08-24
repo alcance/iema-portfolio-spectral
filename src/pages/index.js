@@ -180,9 +180,9 @@ const IndexPage = () => (
             <br />
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Modern web custom made programs for inmmesive training for your team or tailored mentorship one on one sessions.
           </p>
+          
         </div>
       </section>
       <section className="spotlight">
@@ -195,8 +195,7 @@ const IndexPage = () => (
             <br />
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            My career is my passion, and i love to talk about it. Share my thoughts and experience to large groups or transfer knowledge using learning programs.
           </p>
         </div>
       </section>
@@ -205,13 +204,11 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>FULL DEVELOPMENT CYCLE SERVICES</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            I am with you from brain storming to client satisfaction.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            These are just examples of services, if you have an idea. <Link to="/Contact">Let's talk!</Link>
           </p>
         </header>
         <ul className="features">
@@ -230,15 +227,13 @@ const IndexPage = () => (
           <li className="icon solid fa-code">
             <h3>Code quality audit and improvement</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I will read your codebase, looking opportunity areas for improvements, refactor modules using modern languages to make it look great and understandble.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
             <h3>Minimum viable product (MVP)</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Validate your idea quicly with most modern tool sets. I will help you to reduce launching costs to the minimium using cross-platform technologies.
             </p>
           </li>
           <li className="icon fa-heart">
@@ -250,7 +245,7 @@ const IndexPage = () => (
           <li className="icon fa-flag">
             <h3>Team building</h3>
             <p>
-            Build a successful team and manage your software projects. Recruitment and training service to build your full-time development cell.
+              Build a successful team and manage your software projects. Recruitment and training service to build your full-time development cell.
             </p>
           </li>
         </ul>

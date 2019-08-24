@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import pic01 from '../assets/images/pic01.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -10,32 +11,55 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo,
-            tempus sed finibus eget, fringilla quis risus. Maecenas et lorem
-            quis sem varius sagittis et a est. Maecenas iaculis iaculis sem.
-            Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
-
-        
+        <div className="image right">
+          <img src={pic01} alt="" />
+        </div>
+          <h3>Hello, my names is Iván!</h3>
           <hr />
+          <h4>Work experience</h4>
+          <h5><a href="https://nearshoreit.mx/">Nearshore IT</a></h5>
+          <p>- April 2018 - current - Hermosillo, Son.</p>
 
-          <h4>Feugiat aliquam</h4>
+          <h5><a href="https://eastridge.com/">Eastridge Workforce Solutions</a></h5>
+          <p>- Jan/2017 - Oct/2018 - Tijuana, BC.</p>
+          
+          <h5><a href="https://sonataservices.com/">Sonata Services</a></h5>
+          <p>- Jan/2015 - Oct/2017 - Tijuana, BC.</p>
+
+          <hr/>
+          
+          <h4>Brands i've collaborated with</h4>
           <p>
-            Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
-            varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia
-            tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in
-            tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean
-            erat diam, tempus aliquet erat.
+            I've had the opportunity to collaborate directly or indirectly with great brands.
+          </p>
+          <ul>
+            <li>NaturallyCurly</li>
+            <li>Taylor Made</li>
+            <li>Events.com</li>
+          </ul>
+
+          <hr/>
+
+          <h4>Other experiences in my career</h4>
+          <ul>
+            <li>Concluded a trademark registration process under IMPI. (Mexican Institute of Industrial Property).</li>
+            <li>Talked in Google I/O Tijuana about Material Design</li>
+            <li>Conference at Universidad Tecnologica de Tijuana about frontend
+            technologies.</li>
+            <li>Angular workshop in Universidad Tecnologica de Tijuana.</li>
+          </ul>
+
+          <hr/>
+
+          <h4>Education</h4>
+          <ul>
+            <li>Computer Science, MIT OpenCourseWare.</li>
+            <li>Backend and Frontend developer program at Platzi.</li>
+            <li>Computer Information Systems, Universidad Tecnologica de Hermosillo</li>
+          </ul>
+
+          <p>
+            If you are looking for more information about me or services provided on this website, you can check out my <a href="https://linkedin.com/in/ivanmtzaguero/" target="_blank" rel="noopener noreferrer">Likedin cv</a> or resume in pdf format. if you are hand-ons to code review my <a href="https://github.com/alcance" target="_blank" rel="noopener noreferrer">code repositories.</a>
           </p>
         </div>
       </section>
