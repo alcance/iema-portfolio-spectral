@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
+import { Link } from 'gatsby';
 
 import pic1 from '../assets/images/pic01.svg';
 import pic2 from '../assets/images/pic02.svg';
@@ -259,22 +260,17 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Let's talk!</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            To learn more about me or services, feel free to contact me or read more about it.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Contact me
-            </a>
+            <Link to="/Contact" className="button fit primary">Contact</Link>
           </li>
           <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
+            <Link to="/Services" className="button fit">Services</Link>
           </li>
         </ul>
       </div>
