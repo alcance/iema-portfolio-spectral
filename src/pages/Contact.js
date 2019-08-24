@@ -17,37 +17,32 @@ const IndexPage = () => (
               <tr>
                 <th>Type</th>
                 <th>Information</th>
-                <th>Description</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Work email</td>
+                <td>Work and contracts</td>
                 <td><a href="mailto:ivanmxdev@gmail.com" target="_top">ivanmxdev@gmail.com</a></td>
-                <td>Work and contracts.</td>
               </tr>
-              <tr>
-                <td>Personal email</td>
-                <td><a href="mailto:alcance.enlinea@gmail.com" target="_top">alcance.enlinea@gmail.com</a></td>
+                <tr>
                 <td>Personal and general contact.</td>
+                <td><a href="mailto:alcance.enlinea@gmail.com" target="_top">alcance.enlinea@gmail.com</a></td>
               </tr>
               <tr>
-                <td>Phone</td>
+                <td>Direct questions only</td>
                 <td>+526624469480</td>
-                <td>Direct questions only.</td>
               </tr>
               <tr>
-                <td>Skype</td>
-                <td><a href="skype:ivan.devsgo?chat" target="_top">ivan.devsgo</a></td>
                 <td>Quick video calls.</td>
+                <td><a href="skype:ivan.devsgo?chat" target="_top">ivan.devsgo</a></td>
               </tr>
               <tr>
-                <td>Telegram</td>
-                <td><a href="https://t.me/ivanmdev" target="_blank" rel="noopener noreferrer">@ivanmdev</a></td>
                 <td>Direct messages for simple questions.</td>
+                <td><a href="https://t.me/ivanmdev" target="_blank" rel="noopener noreferrer">@ivanmdev</a></td>
               </tr>
             </tbody>
           </table>
+          
           <h3>Join me on social media</h3>
           <table>
             <thead>
@@ -75,24 +70,6 @@ const IndexPage = () => (
               </tr>
             </tbody>
           </table>
-          <hr/>
-          <h3>Just type a message and relax</h3>
-          <form method="post" action="#">
-            <label>
-              Name
-              <input type="text" name="name" id="name" />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" id="email" />
-            </label>
-            <label>
-              Message
-              <textarea name="message" id="message" rows="5" />
-            </label>
-            <button type="submit">Send</button>
-            <input type="reset" value="Clear" />
-          </form>
         </div>
       </section>
     </article>
