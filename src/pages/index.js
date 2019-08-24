@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
+import pic1 from '../assets/images/pic01.png';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
@@ -49,18 +49,108 @@ const IndexPage = () => (
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+            <span className="icon major style1">
+              <i class="fab fa-apple fa-3x"></i>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+            <span className="icon major style1">
+              <i class="fab fa-linux fa-3x"></i>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+            <span className="icon major style1">
+              <i class="fab fa-js fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-python fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-react fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-angular fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-ember fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-node fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-sass fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-gulp fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-grunt fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-git fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-gitlab fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-bitbucket fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-docker fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-jenkins fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-aws fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-digital-ocean fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-google fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-jira fa-3x"></i>
+            </span>
+          </li>
+          <li>
+            <span className="icon major style1">
+              <i class="fab fa-slack fa-3x"></i>
             </span>
           </li>
         </ul>
@@ -131,7 +221,7 @@ const IndexPage = () => (
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          <li className="fa-paper-plane">
             <h3>Arcu accumsan</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
