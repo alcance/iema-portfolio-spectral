@@ -17,11 +17,9 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Tech stack
-              </a>
-            </Scroll>
+            <a href="https://calendly.com/devsgo" target="_blank" className="button primary">
+              Book call
+            </a>
           </li>
         </ul>
       </div>
@@ -259,11 +257,11 @@ const IndexPage = () => (
           <p>
             To learn more about me or services, feel free to book an introductory video call.
           </p>
-          <small>Please note these meetings are for potential new clients only. I respectfully ask you do not book unless you have an intent to explore my services.          </small>
+          <small>Please note these meetings are for potential new clients only. I respectfully ask you do not book unless you have an intent to explore my services.</small>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="https://calendly.com/devsgo" target="_blank" className="button fit primary">Contact</a>
+            <a href="https://calendly.com/devsgo" target="_blank" className="button fit primary">Book call</a>
           </li>
           <li>
             <Link to="/Services" className="button fit">Services</Link>
