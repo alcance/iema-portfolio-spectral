@@ -38,10 +38,10 @@ const IndexPage = () => (
           <h2>
             You have an awesome idea or product
             <br /> 
-            I will facilitate you development process
+            I will facilitate your software development process from ground to MVP.
           </h2>
           <p>
-            My mission is to create a hub for talented developers and great companies, using knowledge as the vehicle for personal and professional growth.
+            As long time experienced developer in different industries and product types, I am able to contribute to your product wearing several differents hats, it all depends about your specific needs.
             <br />
           </p>
         </header>
@@ -257,12 +257,13 @@ const IndexPage = () => (
         <header>
           <h2>Let's talk!</h2>
           <p>
-            To learn more about me or services, feel free to contact me or read more about it.
+            To learn more about me or services, feel free to book an introductory video call.
           </p>
+          <small>Please note these meetings are for potential new clients only. I respectfully ask you do not book unless you have an intent to explore my services.          </small>
         </header>
         <ul className="actions stacked">
           <li>
-            <Link to="/Contact" className="button fit primary">Contact</Link>
+            <a href="https://calendly.com/devsgo" target="_blank" className="button fit primary">Contact</a>
           </li>
           <li>
             <Link to="/Services" className="button fit">Services</Link>
