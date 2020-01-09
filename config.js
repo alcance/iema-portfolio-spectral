@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Ivan E. Martinez Agüero', // <title>
-  manifestName: 'Spectral',
+  manifestName: 'Ivan E. MVP Specialist',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
