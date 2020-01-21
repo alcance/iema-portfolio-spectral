@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Ivan E. Martínez Agüero',
-  subHeading: 'Software Engineer, Business oriented creative multi-specialist',
+  subHeading: 'Fullstack Javascript Consultant for Start-ups',
   // social
   socialLinks: [
     {

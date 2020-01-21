@@ -33,15 +33,8 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            You have an awesome idea or product
-            <br /> 
-            I will facilitate your software development process from ground to MVP.
-          </h2>
-          <p>
-            As long time experienced developer in different industries and product types, I am able to contribute to your product wearing several differents hats, it all depends about your specific needs.
-            <br />
-          </p>
+          <h2>Hey! I'm here to help you launch your product!</h2>
+          <p>From planning to final deployment, I'll support your start-up at each step of the development process enabling you to improve time to market for high quality web and mobile products.</p>
         </header>
         <ul className="icons major">
           <li>
@@ -163,9 +156,7 @@ const IndexPage = () => (
             End-to-end Software Consultant
             <br />
           </h2>
-          <p>
-            In more than a decade I've been growing my career within web development, education, marketing and business.
-          </p>
+          <p>As long time experienced developer in different industries and product types, I am able to contribute to your product wearing several different hats, it all depends on your specific needs.</p>
         </div>
       </section>
       <section className="spotlight">
@@ -202,7 +193,7 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>FULL DEVELOPMENT CYCLE SERVICES</h2>
+          <h2>FULL DEVELOPMENT CYCLE BLUEPRINT</h2>
           <p>
             I am with you from brain storming to client satisfaction.
             <br />
