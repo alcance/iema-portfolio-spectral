@@ -159,35 +159,6 @@ const IndexPage = () => (
           <p>As long time experienced developer in different industries and product types, I am able to contribute to your product wearing several different hats, it all depends on your specific needs.</p>
         </div>
       </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Training and Mentoring
-            <br />
-          </h2>
-          <p>
-            Modern web custom made programs for inmmesive training for your team or tailored mentorship one on one sessions.
-          </p>
-          
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Conferences and seminars
-            <br />
-          </h2>
-          <p>
-            My career is my passion, and i love to talk about it. Share my thoughts and experience to large groups or transfer knowledge using learning programs.
-          </p>
-        </div>
-      </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
