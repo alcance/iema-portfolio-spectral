@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Ivan E. Martínez Agüero</li>
+        <li>&copy; El Taller JS</li>
       </ul>
     </footer>
   );

@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Ivan E. Martinez Agüero', // <title>
-  manifestName: 'Ivan E. MVP Specialist',
+  siteTitle: 'elTallerJS() => Javascript Shop', // <title>
+  manifestName: 'El Taller JS',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Ivan E. Martínez Agüero',
-  subHeading: 'Fullstack Javascript Consultant for Start-ups',
+  heading: 'el Taller JS() => Javascript Shop',
+  subHeading: 'Javascript Agency for Tech Start-ups',
   // social
   socialLinks: [
     {
